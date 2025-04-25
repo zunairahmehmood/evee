@@ -1,0 +1,1083 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* navbar */
+.navbar {
+    height: 59px;
+    width: 100%;
+    background-color: rgb(54, 53, 53);
+    display: flex;
+    align-items: center;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.logo {
+    background-image: url(/images/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 140px;
+    margin: 5px;
+}
+
+.nav-text {
+    height: 26px;
+    width: 149px;
+    color: white;
+    font-size: 14px;
+    font-family: "Helvetica Neue",sans-serif;
+    font-weight: 600;
+    padding-left: 33px;
+    margin-top: 8px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 190px;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home {
+    height: 54px;
+    width: 90px;
+    font-size: 16px;
+    font-family: "Helvetica Neue",sans-serif;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+.home:hover {
+    background-color: #4CAF50;
+}
+
+.models {
+    height: 54px;
+    width: 134px;
+    font-size: 15px;
+    font-family: "Helvetica Neue",sans-serif;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+.model-icon {
+    height: 13px;
+    width: 13px;
+    font-size: 15px;
+    color: white;
+    padding-left: 10px;
+}
+
+.models:hover {
+    background-color: #4CAF50;
+}
+
+.about {
+    height: 54px;
+    width: 101px;
+    font-size: 15px;
+    font-family: "Helvetica Neue",sans-serif;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+.about:hover {
+    background-color: #4CAF50;
+}
+
+.dealers {
+    height: 54px;
+    width: 121px;
+    font-size: 15px;
+    font-family: "Helvetica Neue",sans-serif;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+.dealers:hover {
+    background-color: #4CAF50;
+}
+
+.contact {
+    height: 54px;
+    width: 126px;
+    font-size: 15px;
+    font-family: "Helvetica Neue",sans-serif;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.contact:hover {
+    background-color: #4CAF50;
+}
+
+.book {
+    height: 57px;
+    width: 161px;
+    background-color: white;
+    font-size: 15px;
+    font-family: "Helvetica Neue",sans-serif;
+    font-weight: 550;
+    border: 1px solid rgb(54, 53, 53);
+    color: #4CAF50;
+    text-decoration: none;
+}
+/* navbar end */
+
+
+/* midddle start */
+
+/* home */
+.main-home {
+    margin-top: 59px;
+    background-image: url(/images/main-img.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 671px;
+    width: 100%;
+}
+
+.home-txt{
+    font-size: 33px;
+    color: #4CAF50;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 550;
+    padding: 155px 15px;
+}
+/* home end */
+
+
+/* model */
+.main-model {
+    height: 1005px;
+    width: 100%;
+    background-color: #f4f4f4;
+}
+
+.model-txt {
+    font-size: 48px;
+    color: #16182d;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 550;
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 10px;
+}
+
+.model-button {
+    height: 57px;
+    width: 165px;
+    background-color: white;
+    border: none;
+    color: #16182d;
+    font-size: 14px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 550;
+}
+
+.model-but-icon {
+    height: 14px;
+    width: 14px;
+    padding-left: 10px;
+}
+
+.model-button:hover {
+    background-color: #f4f4f4;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.model-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.box1 {
+    height: 446px;
+    width: 426px;
+    background-image: url(/images/c1\ air.jpeg);
+    background-size: cover;
+}
+
+.box2 {
+    height: 446px;
+    width: 426px;
+    background-image: url(/images/s1\ pro.jpeg);
+    background-size: cover;
+}
+
+.box3 {
+    height: 446px;
+    width: 426px;
+    background-image: url(/images/s1.jpeg);
+    background-size: cover;
+}
+
+.model-box-txt {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.box1-txt {
+    height: 194px;
+    width: 426px;
+    background-color: white;
+    
+}
+
+.evee {
+    padding-top: 25px;
+    font-size: 19px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 550;
+    color: #16182d;
+    padding-left: 30px;
+}
+
+.rs {
+    padding-top: 25px;
+    font-size: 16px;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #676a70;
+    padding-left: 30px;
+}
+
+.model-line {
+    padding-top: 25px;
+    width: 362px;
+    border-bottom: 1px solid #dfd7d7;
+    margin-left: 30px;
+}
+
+.details {
+    padding-top: 25px;
+    font-size: 16px;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #676a70;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.check {
+    margin-top: 8px;
+}
+
+.details-icon {
+    border: 2px solid #dfd7d7;
+    border-radius: 50%;
+    color: black;
+    margin-right: 32px;
+    font-size: 17px;
+    padding: 6px;
+}
+
+.box2-txt {
+    height: 194px;
+    width: 426px;
+    background-color: white;
+}
+
+.box3-txt {
+    height: 194px;
+    width: 426px;
+    background-color: white;
+}
+/* model end */
+
+
+/* dealer */
+.main-dealer {
+    height: 805px;
+    width: 100%;
+}
+
+.dealer-txt {
+    padding-top: 50px;
+    font-size: 33px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    color: #16182d;
+}
+
+.deal-cards {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card1 {
+    height: 622px;
+    width: 416px;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    box-shadow: 7px 7px 5px rgb(110, 101, 101);
+}
+
+#shade {
+    background-image: linear-gradient(#cdfafa, white);
+}
+
+.card-num {
+    height: 35px;
+    width: 35px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 40px 0px 0px 50px;
+}
+
+.num {
+    padding: 11px 0px 0px 12px;
+    color: white;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.card-evee {
+    font-size: 23px;
+    padding-left: 48px;
+}
+
+.speed {
+    font-size: 16px;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #676a70;
+    padding: 35px 0px 0px 58px;
+    display: flex;
+}
+
+.value {
+    font-size: 16px;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #676a70;
+    font-weight: 550;
+    margin-left: 15px;
+}
+
+.deal-line {
+    padding-top: 13px;
+    width: 310px;
+    border-bottom: 1px solid rgb(197, 197, 197);
+    margin-left: 50px;
+}
+
+.range {
+    font-size: 16px;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #676a70;
+    padding-top: 13px;
+    padding-left: 58px;
+    display: flex;
+}
+
+.motor {
+    font-size: 16px;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #676a70;
+    padding-top: 13px;
+    padding-left: 58px;
+    display: flex;
+}
+
+.battery {
+    font-size: 16px;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #676a70;
+    padding-top: 13px;
+    padding-left: 58px;
+    display: flex;
+}
+
+.warranty {
+    font-size: 16px;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #676a70;
+    padding-top: 13px;
+    padding-left: 58px;
+    display: flex;
+}
+
+.charging {
+    font-size: 16px;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #676a70;
+    padding-top: 13px;
+    padding-left: 58px;
+    display: flex;
+}
+
+.price {
+    font-size: 16px;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #676a70;
+    padding-top: 13px;
+    padding-left: 58px;
+    display: flex;
+}
+
+.deal-button {
+    height: 59px;
+    width: 165px;
+    background-color: #4CAF50;
+    border: none;
+    margin: 58px 0px 0px 125px;
+    color: #16182d;
+    font-size: 14px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+.card2 {
+    height: 622px;
+    width: 416px;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    box-shadow: 7px 7px 5px rgb(110, 101, 101);
+}
+
+.card3 {
+    height: 622px;
+    width: 416px;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    box-shadow: 7px 7px 5px rgb(110, 101, 101);
+}
+/* dealer end */
+
+
+/* show */
+.main-show {
+    height: 900px;
+    width: 100%;
+    background-image: url(/images/show-img.jpg);
+    background-size: cover;
+}
+
+.show-txt {
+    padding-top: 350px;
+    padding-left: 10px;
+    font-size: 33px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 550;
+}
+
+.show-button {
+    margin-top: 35px;
+    margin-left: 30px;
+    height: 53px;
+    width: 192px;
+    font-size: 14px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 550;
+    background-color: #4CAF50;
+    color: white;
+    border: thin;
+    border: 1px solid #16182d;
+    cursor: pointer;
+}
+
+.show-icon {
+    padding-left: 5px;
+    color: white;
+}
+
+.show-button:hover {
+    color: #8BC34A;
+}
+/* show end */
+
+
+/* info */
+.main-info {
+    height: 195px;
+    width: 100%;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-box1 {
+    height: 153px;
+    width: 336px;
+    background-color: white;
+}
+
+.info-txt {
+    padding: 40px;
+}
+
+.upper {
+    padding-top: 5px;
+    color: #16182d;
+    font-size: 14px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 550;
+}
+
+.lower {
+    color: #16182d;
+    font-size: 32px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 550;
+    margin-top: 20px;
+}
+
+.info-box2 {
+    height: 153px;
+    width: 336px;
+    background-color: white;
+}
+
+.info-box3 {
+    height: 153px;
+    width: 336px;
+    background-color: white;
+}
+
+.info-box4 {
+    height: 153px;
+    width: 336px;
+    background-color: white;
+}
+/* info end */
+
+
+/* built */
+.main-built {
+    height: 670px;
+    width: 100%;
+}
+
+.built-txt {
+    margin-top: 100px;
+    color: #4CAF50;
+    font-size: 48px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.built-imgs {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.built-img1 {
+    height: 555px;
+    width: 674.5px;
+    background-image: url(/images/Chasis.jpg);
+    background-size: cover;
+}
+
+.built-img1-txt {
+    height: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #333333;
+    font-size: 23px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 550;
+}
+
+.built-img2 {
+    height: 555px;
+    width: 674.5px;
+    background-image: url(/images/Motor.jpg);
+    background-size: cover;
+}
+
+.built-img2-txt {
+    height: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #333333;
+    font-size: 23px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 550;
+}
+/* built end */
+
+
+/* about */
+.main-about {
+    height: 694px;
+    width: 100%;
+    display: flex;
+}
+
+.about-txt {
+    padding-top: 200px;
+    padding-left: 10px;
+    height: 403px;
+    width: 810px;
+}
+
+.evee-about {
+    color: #16182d;
+    font-size: 48px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 550;
+}
+
+.txt-about {
+    padding-top: 20px;
+    color: #676a70;
+    font-size: 16px;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.about-info {
+    padding-top: 80px;
+    display: flex;
+}
+
+.about-quality {
+    height: 211px;
+    width: 243px;
+}
+
+.for-quality-icon {
+    height: 80px;
+    width: 80px;
+    border: 1px solid #dfd7d7;
+    border-radius: 50%;
+}
+
+.quality-icon {
+    margin: 20px 0px 0px 19px;
+    height: 40px;
+    width: 40px;
+    background-image: url(/images/quality.png);
+    background-size: cover;
+}
+
+.about-upper {
+    padding-top: 50px;
+    font-size: 19px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 550;
+    color: #16182d;
+}
+
+.about-lower {
+    padding-top: 15px;
+    width: 243px;
+    font-size: 16px;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #676a70;
+}
+
+.about-warranty {
+    height: 211px;
+    width: 243px;
+}
+
+.for-warranty-icon {
+    height: 80px;
+    width: 80px;
+    border: 1px solid #dfd7d7;
+    border-radius: 50%;
+}
+
+.warranty-icon {
+    margin: 19px 0px 0px 18px;
+    height: 45px;
+    width: 45px;
+    background-image: url(/images/warranty.png);
+    background-size: cover;
+}
+
+.about-service {
+    height: 211px;
+    width: 243px;
+}
+
+.for-service-icon {
+    height: 80px;
+    width: 80px;
+    border: 1px solid #dfd7d7;
+    border-radius: 50%;
+}
+
+.service-icon {
+    margin: 19px 0px 0px 18px;
+    height: 45px;
+    width: 45px;
+    background-image: url(/images/service.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.about-logo {
+    margin-top: 130px;
+    height: 494px;
+    width: 500px;
+    background-image: url(/images/evee-logo_round.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/* about end */
+
+
+/* book */
+.main-book {
+    height: 508px;
+    width: 100%;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+}
+
+.book-left {
+    padding-left: 13px;
+}
+
+.book-ride {
+    font-size: 48px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 550;
+    color: #16182d;
+}
+
+.book-evee {
+    padding-top: 45px;
+    font-size: 16px;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #676a70;
+}
+
+.book-button {
+    margin-top: 60px;
+    height: 53px;
+    width: 192px;
+    font-size: 14px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 550;
+    background-color: #4CAF50;
+    color: black;
+    border: none;
+    display: flex;
+    cursor: pointer;
+    padding: 19px 0px 0px 40px;
+}
+
+.meter-icon {
+    height: 20px;
+    width: 20px;
+    background-image: url(/images/meter.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 1px 0px 0px 10px;
+}
+
+.book-mid {
+    padding: 300px 0px 0px 45px;
+}
+
+.book-img {
+    height: 580px;
+    width: 471px;
+    background-image: url(/images/book-img.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.book-right {
+    padding-left: 30px;
+}
+
+.book-line {
+    display: flex;
+}
+
+.book-icon-border {
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.book-icon {
+    font-size: 12px;
+    padding: 12px;
+}
+
+.book-txt {
+    padding-top: 8px;
+    font-size: 19px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 550;
+    color: #16182d;
+}
+
+.stylish {
+    padding: 7px 0px;
+}
+
+.powerful {
+    padding: 7px 0px;
+}
+
+.graphene {
+    padding: 7px 0px;
+}
+/* book end */
+
+/* midddle end */
+
+
+/* footer */
+.footer {
+    height: 434px;
+    width: 100%;
+    background-color: rgb(54, 53, 53);
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-left {
+    margin-left: 13px;
+    display: flex;
+    flex-direction: column;
+}
+
+.foot-left-upper {
+    margin-top: 20px;
+    display: flex;
+}
+
+.foot-logo {
+    height: 65px;
+    width: 65px;
+    background-image: url(/images/evee-logo_round.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.foot-logo-txt {
+    padding: 25px 0px 0px 25px;
+    font-size: 14px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 550;
+    color: white;
+}
+
+.foot-left-mid {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.foot-links-txt {
+    font-size: 23px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 550;
+    color: #4CAF50;    
+}
+
+.foot-link1 {
+    display: flex;
+}
+
+.sale-icon { 
+    margin-top: 12px;
+    font-size: 20px;
+    color: #4CAF50;
+}
+
+.sale {
+    margin: 10px 0px 0px 10px;
+    color: white;
+    font-size: 14px;
+    font-family: Georgia, serif;
+    text-decoration: none;
+}
+
+.sale:hover {
+    text-decoration: underline;
+}
+
+.foot-link2 {
+    display: flex;
+}
+
+.support-icon {
+    margin-top: 12px;
+    font-size: 20px;
+    color: #4CAF50;
+}
+
+.support {
+    margin: 10px 0px 0px 10px;
+    color: white;
+    font-size: 14px;
+    font-family: Georgia, serif;
+    text-decoration: none;
+}
+
+.support:hover {
+    text-decoration: underline;
+}
+
+.foot-link3 {
+    display: flex;
+}
+
+.phone-icon {
+    margin-top: 12px;
+    font-size: 20px;
+    color: #4CAF50;
+}
+
+.phone {
+    margin: 10px 0px 0px 9px;
+    color: white;
+    font-size: 14px;
+    font-family: Georgia, serif;
+    text-decoration: none;
+}
+
+.phone:hover {
+    text-decoration: underline;
+}
+
+.foot-left-lower {
+    margin-top: 40px;
+}
+
+.rights {
+    color: #6d6f7d;
+    font-size: 16px;
+    font-family: 'Helvetica Neue', sans-serif;
+    display: flex;
+}
+
+.pixel {
+    color: #6d6f7d;
+    font-size: 16px;
+    font-family: 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+
+.pixel:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.foot-right {
+    margin-top: 35px;
+}
+
+.web-links {
+    display: flex;
+}
+
+.facebook-icon {
+    margin-right: 55px;
+}
+
+.instagram-icon {
+    margin-right: 55px;
+}
+
+.tiktok-icon {
+    margin-right: 55px;
+}
+
+.youtube-icon {
+    margin-right: 55px;
+}
+
+.linkedin-icon {
+    margin-right: 25px;
+}
+
+.fa-brands {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.foot-right-txt {
+    margin-top: 125px;
+}
+
+.manufacturing {
+    font-size: 23px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 550;
+    color: #4CAF50;
+}
+
+.foot-address {
+    margin-top: 14px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.go-to-top {
+    margin: 85px 0px 0px 80px;
+    height: 26px;
+    width: 131px;
+    display: flex;
+    text-decoration: none;
+}
+
+.go-txt {
+    margin-top: 4px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 550;
+}
+
+.go-for-icon {
+    margin-left: 20px;
+    height: 24px;
+    width: 24px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.go-icon {
+    padding: 5px 0px 0px 5.5px;
+    font-size: 14px;
+    text-decoration: none;
+}
+/* footer end */
